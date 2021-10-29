@@ -1,0 +1,20 @@
+--Ver todos os databases | show databases;
+
+--Criar um banco de dados | create databases mod_db;
+
+--Conectar no banco de dados | use mod_db;
+
+--Ver todas as tabelas show tables;
+
+--Criar tabelas | create table category_Management{
+  id            INTERGER,
+  name          VARCHAR(50)
+  category      VARCHAR(50),        ,
+  color         VARCHAR(50),
+  partNumber    INTERGER,
+};
+
+create table device_Management{
+  id            INTERGER,
+  name          VARCHAR(50)
+};
